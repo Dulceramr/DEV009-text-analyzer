@@ -1,0 +1,42 @@
+header{
+    color: #ff69b4;
+}
+
+.lista{
+    color: #800080;
+    background-color: #ffb6c1;
+    display: inline-block;
+    padding: 30px 60px;
+    margin: 20px;
+    border-radius: 2em;
+    border: 4px solid #ff69b4;
+}
+.lista1{
+    color: #663399;
+    background-color: #fff0f5;
+    display: inline-block;
+    padding: 30px 60px;
+    margin: 20px;
+    border-radius: 2em;
+    border: 4px solid #ff69b4;
+}
+.lista2{
+    color: #7b68ee;
+    background-color: #fffff0;
+    display: inline-block;
+    padding: 30px 60px;
+    margin: 20px;
+    border-radius: 2em;
+    border: 4px solid #ff69b4;
+}
+[name="textar"]{
+    color:#ff69b4;
+}
+
+#reestablecer{
+    color:#8a2be2;
+}
+
+footer{
+    color:#ff69b4;
+}
