@@ -1,42 +1,85 @@
 header{
-    color: #ff69b4;
+    color: #60310f;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 30 px;
+    text-shadow: 10px 10px 7px #FFDAB9;
+}
+
+body{
+    background-image: url(https://nupec.com/wp-content/uploads/2021/02/Captura-de-pantalla-2021-02-08-a-las-13.59.48.png)
+}
+
+.listas{
+    font-size: 15px;
+    width: 1200px;
+
 }
 
 .lista{
-    color: #800080;
-    background-color: #ffb6c1;
+    color: #ffefd5;
+    background-color: #572b0c;
     display: inline-block;
-    padding: 30px 60px;
+    padding: 40px 60px 25px;
     margin: 20px;
     border-radius: 2em;
-    border: 4px solid #ff69b4;
+    border: 4px solid #f5deb3;
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 7px 3px 5px 7px #d2b48c;
 }
 .lista1{
-    color: #663399;
-    background-color: #fff0f5;
+    color: #ffefd5;
+    background-color: #753a10;
     display: inline-block;
-    padding: 30px 60px;
+    padding: 40px 60px 25px;
     margin: 20px;
     border-radius: 2em;
-    border: 4px solid #ff69b4;
+    border: 4px solid #f5deb3;
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 7px 3px 5px 7px #d2b48c;
 }
 .lista2{
-    color: #7b68ee;
-    background-color: #fffff0;
+    color: #ffefd5;
+    background-color: #8b4513;
     display: inline-block;
-    padding: 30px 60px;
+    padding: 40px 60px 25px;
     margin: 20px;
     border-radius: 2em;
-    border: 4px solid #ff69b4;
+    border: 4px solid #f5deb3;
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 7px 3px 5px 7px #d2b48c;
+    
 }
-[name="textar"]{
-    color:#ff69b4;
+textarea[name="user-input"] {
+    color: #ffefd5;
+    background-color: #8b4513;
+    border-radius: 50%;
+    border: none;
+    border-bottom: 7px solid #f5deb3;
+    resize: none;
+    padding: 40px 60px 25px;
+    font-family: 'Titillium Web', sans-serif;
+    min-height: 140px;
+    cursor: pointer;
 }
 
-#reestablecer{
-    color:#8a2be2;
+::placeholder { 
+    color: 	#FFF8DC;
+    opacity: 0.5; 
+    padding: 35px 10px;
+  }
+
+#reset-button {
+    color: #ffefd5;
+    background-color: #753a10;
+    border: none;
+    padding: 30px;
+    border-radius: 50%;
 }
 
-footer{
-    color:#ff69b4;
+footer {
+    color: #A0522D;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding: 30px 200px 5px 5px;
 }
