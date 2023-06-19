@@ -14,7 +14,7 @@ const analyzer = {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
   },
   getCharacterCountExcludingSpaces: (text) => {
-    const charactPunt = text.replace (/[,.]/g, "")
+    const charactPunt = text.replace (/[.,]/g, "")
     const characterExSp = charactPunt.replace (/\s/g, "");
     const charaCountExSp = characterExSp.length;
     return charaCountExSp;
